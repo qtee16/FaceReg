@@ -9,5 +9,4 @@ scikit-learn==1.0.1
 scipy==1.7.2
 tensorflow==2.7.0
 threadpoolctl==3.0.0
-tk==0.1.0
 PyQt5
