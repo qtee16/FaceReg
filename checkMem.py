@@ -1,7 +1,4 @@
-import sys
 from PyQt5.uic import loadUi
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QApplication, QWidget, QMainWindow
 import sys
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -119,8 +116,6 @@ class AddPeople(QMainWindow):
         pixmap = QPixmap(Pic)
         self.imgCapture.setPixmap(pixmap)
         self.btnAdd.clicked.connect(self.upload)
-
-        # self.btnAdd.clicked.connect(self.upload(self.enterName.text()))
 
 
     def ImageUpdateSlot(self, Image):
